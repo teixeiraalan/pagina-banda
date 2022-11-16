@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    border: 2px solid #282828;
+    background-color: #282828;
+    color: white;
+    height: 100px;
+    width: 119.75rem;
+    display: inline-block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
