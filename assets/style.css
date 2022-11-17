@@ -4,22 +4,70 @@ body{
     padding: 0;
 }
 
+h2{
+    margin-left: 30px;
+    font-size: 35px;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    margin-left: 740px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #f67828;
+    text-decoration: underline;
+}
+
+li{
+    padding: 15px;
+    margin-top: 130px;
+    font-size: 20px;
+}
+
+#camaroes {
+    width: 200px;
+    margin-left: -10px;
+}
+
+#inicio{
+    color: #f67828;
+    text-decoration: underline;
+}
+
+#inicio:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#agenda {
+    color: #f67828;
+    text-decoration: underline;
+}
+
+#agenda:hover{
+    color: white;
+    text-decoration: none;
+}
+
 #nav{
     border: 2px solid #282828;
     background-color: #282828;
     color: white;
-    height: 100px;
-    width: 119.75rem;
-    display: inline-block;
+    height: 200px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    margin-top: 30px;
-    padding: 10px;
-}
-
-a:hover {
-    text-decoration: underline;
+#os-camaroes{
+    opacity: 100%;
+    width: 1100px;
+    height: 765px;
 }
